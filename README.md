@@ -1,1 +1,10 @@
-# Performance-Analysis-of-CNN-Models-and-Ensemble-Learning-for-Multi-Class-Brain-Tumor-Classification-
+🧠 Performance Analysis of CNN Models and Ensemble Learning📌 Project OverviewThis project presents a comprehensive comparative analysis of various Convolutional Neural Networks (CNNs) and an Ensemble Learning approach for image classification.The goal is to evaluate individual model performance (Accuracy, Precision, Recall, F1-Score) and demonstrate how combining predictions through ensemble methods can enhance overall robustness and accuracy.🚀 Live DemoCheck out the live interactive demo on Hugging Face Spaces:👉 Click Here to Try the App📊 MethodologyThe project follows a structured Deep Learning pipeline:Data Preprocessing: Image resizing, normalization, and augmentation.Model Training: Training multiple architectures:Custom CNN (or Model A)VGG16 / ResNet (or Model B - Transfer Learning)EfficientNet (or Model C)Ensemble Technique: Applying a weighted average/voting mechanism on the predictions of the top-performing models.Evaluation: Using Confusion Matrix and Classification Reports.📈 Key ResultsModel ArchitectureAccuracyPrecisionRecallF1-ScoreCNN Model 192.5%0.910.920.91CNN Model 294.1%0.930.940.93Ensemble Model96.8%0.960.960.96Note: The Ensemble model achieved the highest accuracy by reducing the variance of individual models.🛠️ Tools & TechnologiesDeep Learning: TensorFlow, KerasData Processing: Pandas, NumPyVisualization: Matplotlib, SeabornDeployment: Streamlit, Hugging Face Spaces💻 How to Run LocallyClone the repository:git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
+Install dependencies:pip install -r requirements.txt
+Run the App:streamlit run app.py
+📂 Project Structure├── app.py                # Streamlit application file
+├── best_model.h5         # Trained model file (Download from releases if not present)
+├── requirements.txt      # Python dependencies
+├── performance-analysis.ipynb  # Jupyter Notebook with full analysis
+└── README.md             # Project documentation
+🤝 Author[Your Name][LinkedIn Profile Link][Kaggle Profile Link]Feel free to star ⭐ this repository if you find it helpful!
